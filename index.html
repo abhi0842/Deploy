@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Live Page</title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+            margin-top: 50px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <h1>🚀 Hello, GitHub Actions!</h1>
+    <p>This page auto-updates when I push code.</p>
+
+    <button onclick="updateTime()">Click Me</button>
+    <p id="time"></p>
+
+    <script>
+        function updateTime() {
+            document.getElementById("time").innerText =
+                "Updated at: " + new Date();
+        }
+    </script>
+</body>
+</html>
